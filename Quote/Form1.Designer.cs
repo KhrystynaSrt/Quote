@@ -42,14 +42,15 @@
             this.quote_label.Font = new System.Drawing.Font("Monotype Corsiva", 13.8F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point);
             this.quote_label.Location = new System.Drawing.Point(12, 50);
             this.quote_label.Name = "quote_label";
-            this.quote_label.Size = new System.Drawing.Size(670, 64);
+            this.quote_label.Size = new System.Drawing.Size(716, 64);
             this.quote_label.TabIndex = 0;
             this.quote_label.Text = "Цитата";
             this.quote_label.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
             // next_btn
             // 
-            this.next_btn.Location = new System.Drawing.Point(12, 158);
+            this.next_btn.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
+            this.next_btn.Location = new System.Drawing.Point(35, 167);
             this.next_btn.Name = "next_btn";
             this.next_btn.Size = new System.Drawing.Size(126, 34);
             this.next_btn.TabIndex = 1;
@@ -59,7 +60,8 @@
             // 
             // color_btn
             // 
-            this.color_btn.Location = new System.Drawing.Point(193, 158);
+            this.color_btn.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
+            this.color_btn.Location = new System.Drawing.Point(216, 167);
             this.color_btn.Name = "color_btn";
             this.color_btn.Size = new System.Drawing.Size(126, 34);
             this.color_btn.TabIndex = 2;
@@ -69,7 +71,8 @@
             // 
             // panel_btn
             // 
-            this.panel_btn.Location = new System.Drawing.Point(374, 158);
+            this.panel_btn.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
+            this.panel_btn.Location = new System.Drawing.Point(397, 167);
             this.panel_btn.Name = "panel_btn";
             this.panel_btn.Size = new System.Drawing.Size(126, 34);
             this.panel_btn.TabIndex = 3;
@@ -79,7 +82,8 @@
             // 
             // exit_btn
             // 
-            this.exit_btn.Location = new System.Drawing.Point(555, 158);
+            this.exit_btn.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
+            this.exit_btn.Location = new System.Drawing.Point(578, 167);
             this.exit_btn.Name = "exit_btn";
             this.exit_btn.Size = new System.Drawing.Size(126, 34);
             this.exit_btn.TabIndex = 4;
@@ -91,7 +95,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(694, 218);
+            this.ClientSize = new System.Drawing.Size(740, 227);
             this.Controls.Add(this.exit_btn);
             this.Controls.Add(this.panel_btn);
             this.Controls.Add(this.color_btn);
